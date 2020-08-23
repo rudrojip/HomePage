@@ -1,0 +1,16 @@
+.carousel-component {
+  background: black;
+}
+
+.m-hero .carousel-data {
+  display: contents;
+}
+
+.m-hero .carousel-data img {
+  height: auto;
+}
+
+img.company-logo {
+  height: 40px;
+}
+/*# sourceMappingURL=styles.css.map */

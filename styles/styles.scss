@@ -1,0 +1,7 @@
+@import "./carousel";
+@import "./variables";
+img {
+  &.company-logo {
+    height: $company-logo-height;
+  }
+}

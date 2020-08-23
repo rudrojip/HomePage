@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACSA,AAAA,mBAAmB,CAAC;EAClB,UAAU,EAAE,KAAK;CAClB;;AAED,AACE,OADK,CACL,cAAc,CAAC;EACb,OAAO,EAAE,QAAQ;CAKlB;;AAPH,AAII,OAJG,CACL,cAAc,CAGZ,GAAG,CAAC;EACF,MAAM,EAAE,IAAI;CACb;;ADjBL,AACE,GADC,AACA,aAAa,CAAC;EACb,MAAM,EEJY,IAAI;CFKvB",
+    "sources": [
+        "styles.scss",
+        "_carousel.scss",
+        "_variables.scss"
+    ],
+    "names": [],
+    "file": "styles.css"
+}

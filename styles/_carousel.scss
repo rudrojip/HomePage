@@ -1,0 +1,22 @@
+// @mixin flexCenter($direction, $background) {
+//   height: 100vh;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   flex-direction: $direction;
+//   background: $background;
+// }
+
+.carousel-component {
+  background: black;
+}
+
+.m-hero {
+  .carousel-data {
+    display: contents;
+
+    img {
+      height: auto;
+    }
+  }
+}

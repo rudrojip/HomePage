@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.ml9 {
+  position: relative;
+  font-weight: 200;
+  font-size: 4em;
+}
+
+.ml9 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml9 .letter {
+  color: white;
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
+.loader {
+  margin-top: 20%;
+}
+span[class*="loader-animation"] {
+  color: white;
+  width: 4px;
+  height: 4px;
+  background: #fff;
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1px;
+
+  /*animation: rotateSpin 5s linear infinite;*/
+}
+/* 
+@keyframes rotateSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
