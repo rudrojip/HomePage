@@ -28,4 +28,20 @@ $(document).ready(function () {
       $(".random-fact").text("Error Fetching data from API");
     },
   });
+
+  $("#getFacts").click(function (e) {
+    e.preventDefault();
+    $.ajax({
+      method: "GET",
+      url: "http://numbersapi.com/" + Math.floor(Math.random() * 100),
+      success: function (data) {
+        $(".spinner-border").hide();
+        $(".random-fact").text(data);
+      },
+      error: function (e) {
+        $(".spinner-border").hide();
+        $(".random-fact").text("Error Fetching data from API");
+      },
+    });
+  });
 });
